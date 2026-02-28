@@ -6,12 +6,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 .card {
     background: white;
-    width: 350px;
+    width: 90%;
+    max-width: 400px;
     padding: 35px;
     border-radius: 25px;
     text-align: center;
@@ -79,4 +81,29 @@ h1 {
 
 .save-btn:hover {
     background: #5E1414;
+}
+@media (max-width: 480px) {
+
+    .card {
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    .founder {
+        font-size: 16px;
+    }
+
+    .contact a {
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    .save-btn {
+        width: 100%;
+    }
+
 }
