@@ -74,7 +74,7 @@ h1 {
     background: #8B1E1E;
     color: white;
     text-decoration: none;
-    border-radius: 20px;
+    border-radius: 15px;
     font-weight: 500;
     transition: 0.3s;
 }
@@ -103,7 +103,7 @@ h1 {
     }
 
     .save-btn {
-        width: 80%;
+        width: 100%;
     }
 
 }
