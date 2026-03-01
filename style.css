@@ -77,15 +77,22 @@ h1 {
     border-radius: 8px;
     align-self: center;
     color: black;
+    .save-btn,
+.save-btn:link,
+.save-btn:visited,
+.save-btn:hover,
+.save-btn:active {
+    color: #8B1E1E !important; /* JNIC maroon text */
+    text-decoration: none;
+}
 }
 
 .save-btn:hover {
     background: #5E1414;
 }
-* {
+{
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     padding: 0;
