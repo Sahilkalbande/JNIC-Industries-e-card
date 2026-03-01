@@ -71,16 +71,11 @@ h1 {
 .save-btn {
     display: block;
     width: 100%;
-    max-width: 320px;
-    margin: 20px auto;
-    padding: 14px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 12px 20px;
     font-size: 16px;
-    cursor: pointer;
-    position: relative;
+    border-radius: 8px;
 }
 
 .save-btn:hover {
