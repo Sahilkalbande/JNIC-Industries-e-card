@@ -76,6 +76,7 @@ h1 {
     padding: 12px;
     border-radius: 8px;
     align-self: center;
+    color: black;
 }
 
 .save-btn:hover {
