@@ -71,15 +71,24 @@ h1 {
 .save-btn {
     display: block;
     width: 100%;
-    max-width: 300px;
+    max-width: 100%;
     margin: 15px auto;
-    padding: 12px 20px;
-    font-size: 16px;
+    padding: 12px;
     border-radius: 8px;
+    align-self: center;
 }
 
 .save-btn:hover {
     background: #5E1414;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 @media (max-width: 480px) {
 
