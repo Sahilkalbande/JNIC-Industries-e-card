@@ -1,15 +1,21 @@
+/* Reset & Global */
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
-    padding: 0;
+    padding: 20px;
     background: #D8B4AE;
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    padding: 20px;
+    overflow-x: hidden;
 }
 
+/* Card Layout */
 .card {
     background: white;
     width: 90%;
@@ -21,11 +27,13 @@ body {
     box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
 
+/* Logo */
 .logo {
     width: 120px;
     margin-bottom: 10px;
 }
 
+/* Typography */
 h1 {
     font-family: 'Playfair Display', serif;
     color: #8B1E1E;
@@ -44,6 +52,7 @@ h1 {
     margin-bottom: 20px;
 }
 
+/* Divider */
 .divider {
     height: 2px;
     width: 50px;
@@ -51,6 +60,7 @@ h1 {
     margin: 20px auto;
 }
 
+/* Contact Links */
 .contact a {
     display: block;
     text-decoration: none;
@@ -68,36 +78,28 @@ h1 {
     color: white;
 }
 
-.save-btn {
-    display: block;
-    width: 100%;
-    max-width: 100%;
-    margin: 15px auto;
-    padding: 12px;
-    border-radius: 8px;
-    align-self: center;
-    color: black;
-    .save-btn,
+/* Save Contact Button */
+.save-btn,
 .save-btn:link,
 .save-btn:visited,
 .save-btn:hover,
 .save-btn:active {
-    color: #8B1E1E !important; /* JNIC maroon text */
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    padding: 12px;
+    border-radius: 8px;
     text-decoration: none;
-}
+    color: #8B1E1E;   /* FIXED TEXT COLOR */
 }
 
+/* Hover Effect */
 .save-btn:hover {
     background: #5E1414;
+    color: white;
 }
-{
-    box-sizing: border-box;
-}
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+
+/* Responsive Design */
 @media (max-width: 480px) {
 
     .card {
@@ -119,8 +121,6 @@ body {
     }
 
     .save-btn {
-        width: 100%;
         font-size: 14px;
     }
-
 }
